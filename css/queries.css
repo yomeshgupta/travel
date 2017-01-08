@@ -124,13 +124,16 @@
 
 /* Small phones: from 0px to 480px */
 @media only screen and (max-width: 480px) {
+    .hero-text-box {
+        top: 70%;
+    }
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
     .btn-full,
     .btn-ghost { margin-bottom: 3%; }
     .works-step { min-height: 50px; }
     .btn-app img { margin-bottom: 10px; }
-    #play-store { width: 152px; height: auto; }
+    #play-store { width: 130px; height: auto; }
     .travels-showcase li { width: 100%; }
     .app-screen { width: 50%; }
     footer { padding: 60px 10px; }
@@ -138,4 +141,7 @@
     footer ul li { margin-bottom: 10px; }
     .footer-nav { font-size: 120%; }
     .social-links { font-size: 130%; } 
+    .message, footer p {
+        line-height: 20px;
+    }
 }
